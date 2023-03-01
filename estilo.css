@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+}
+.card img {
+  width: 300px;
+  height: 220px;
+}
+.card button {
+  background-color: #4c8eaf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.card button:hover {
+  background-color: #413e8e;
+}
